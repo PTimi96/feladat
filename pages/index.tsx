@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const Home = () => {
-    return(
+    return (
         <>
-            <Link href="/kommentek"><button>Kommentek</button></Link>
-            <Link href="/kommentekKeppel"><button>Kommentek képekkel</button></Link>
+            <Link href="/component/comment"><button>Kommentek</button></Link>
+            <Link href="/component/commentwithpics"><button>Kommentek képekkel</button></Link>
         </>
     )
 }
